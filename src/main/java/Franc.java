@@ -11,9 +11,9 @@ public class Franc extends Money{
        //this.currency = currency;
    }
 
-    Money times (int multiplier){
-        return new Franc (amount * multiplier, currency);
-    }
+    /* Money times (int multiplier){
+        return new Money (amount * multiplier, currency);
+    } */
 
     /* public boolean equals(Object object){
         Money franc = (Money) object;

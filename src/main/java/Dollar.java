@@ -1,8 +1,8 @@
 public class Dollar extends Money {
     //private int amount;
-
-    private String currency;
-       Dollar(int amount, String currency) {
+    //private String currency;
+      
+    Dollar(int amount, String currency) {
 
         super(amount, currency);
 
@@ -11,10 +11,10 @@ public class Dollar extends Money {
     }
 
 
-    Money times(int multiplier) {
-        return new Dollar (amount * multiplier, currency);
+    /* Money times(int multiplier) {
+        return new Money (amount * multiplier, currency);
 
-    }
+    } */
 
     /* public boolean equals(Object object){
         Money dollar = (Money) object;
