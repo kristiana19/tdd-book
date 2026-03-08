@@ -10,7 +10,7 @@ public class Money implements Expression {
             && currency().equals(money.currency());
     }
 
-    Expression times (int multiplier) {
+    public Expression times (int multiplier) {
         return new Money (amount * multiplier, currency);
     }
 
